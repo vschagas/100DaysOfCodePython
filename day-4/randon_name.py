@@ -13,6 +13,6 @@ names = names_string.split(", ")
 quantify = len(names)
 random = random.randint(0, quantify - 1)
 
-random = random.choice(names)
+# random = random.choice(names)
 
 print(f"{names[random]} is going to buy the meal today!")
